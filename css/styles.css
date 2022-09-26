@@ -1,0 +1,193 @@
+#title{
+  background-color: #ff4c68
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15%
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn-dl{
+  margin: 5% 3% 5% 0;
+}
+
+.imagen-movil{
+  width: 400px;
+
+ transform: rotate(25deg);
+
+ position: absolute;
+
+ margin: 0 0 0 3%;
+}
+
+
+/* Icons */
+
+#features{
+  color: #8f8f8f;
+  text-align: center;
+  padding: 7% 20%;
+
+  background-color: white;
+
+  position: relative;
+}
+
+.iconos{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.iconos:hover{
+  color: #ff4c68;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+#features h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* Testimonials */
+
+#testimonials{
+
+  text-align:center;
+  background-color: #ef8172;
+  color: #fff
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/**Pricing**/
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 991px){
+  .imagen-movil{
+
+    position: static;
+    transform: rotate(0);
+  }
+  .title-bg{
+    text-align: center;
+  }
+
+
+}
+
+/**Contact**/
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+
+#cta h3{
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding-top:3%;
+  font-size: 3rem;
+
+}
+
+
+.divisor{padding-top: 3%}
+
+@media (min-width: 991px){
+
+
+.divisor {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+}
+/**Footer**/
+
+
+#footer{
+  background-color: #fff;
+  padding: 3% 5%;
+  text-align: center;
+}
+
+
+.iconos-footer{
+  margin: 2rem 1rem;
+  text-decoration: none;
+  color: #000;
+}
